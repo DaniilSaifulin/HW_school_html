@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    font-family: sans-serif;
+}
+
+.text {
+    border: 2px dashed #2196F3;
+    padding: 15px;
+    margin: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+  
+    border: 15px solid #56f436;
+    padding: 30px;
+    margin: 40px;
+    background-color: #244ec2;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+.flex-container {
+    display: flex; /* Встановлюємо контейнеру властивості flexbox */
+    justify-content: space-between; /* Розташування елементів по краях контейнера */
+    align-items: center; /* Вертикальне центрування елементів */
+    height: 300px; /* Встановлюємо висоту контейнера на ваш смак */
+    background-color: #c0cd5b36; /* Колір фону контейнера */
+}
+
+.flex-item {
+    flex: 1; /* Розподіляємо доступний простір між елементами рівномірно */
+    padding: 20px; /* Відступи навколо елементів */
+    border: 1px solid #000; /* Рамка навколо елементів */
+    text-align: center; /* Вирівнюємо текст по центру */
+}
